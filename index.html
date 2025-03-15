@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="logo.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+  <title>VETCENTER</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header class="text-black p-3">
+    <div class="container mx-auto flex justify-center items-center">
+      <nav class="space-x-6">
+        <a href="#about" class="hover:text-blue-300">Sobre</a>
+        <a href="#services" class="hover:text-blue-300">Serviços</a>
+        <a href="#contacts" class="hover:text-blue-300">Consulta</a>
+        <a href="https://www.instagram.com/vetcenterpnz/" target="_blank" class="hover:text-blue-300">Instagram</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Seção de Introdução -->
+  <section class="text-white py-28 text-center">
+    <img src="img/logo.png" alt="Logo" id="logo" class="mx-auto mb-6" style="width: 150px; height: auto;">
+    <h1 class="text-5xl font-bold">
+      <span class="font-oswald text-blue-500">VET</span><span class="font-oswald text-green-500">CENTER</span>
+    </h1>    
+    <p class="font-oswald text-black mt-1 text-lg">CENTRO VETERINÁRIO E PET SHOP</p>
+    <a href="https://wa.me/558781288484" class="bg-yellow-500 text-white py-3 px-6 rounded mt-8 inline-block text-xl">Agende uma consulta!</a>
+  </section>
+
+  <img src="img/image1.jpg" alt="VetCenter" class="mx-auto mb-6" style="max-width: 100%; height: auto;">
+
+  <!-- Seção sobre o Pet Shop -->
+  <section id="about" class="bg-gray-100 py-28 text-center">
+    <h2 class="text-5xl font-bold">
+      <span class="font-oswald text-blue-500">VET</span><span class="font-oswald text-green-500">CENTER</span>
+    </h2>
+    <br>
+    <p class="text-gray-600 text-lg">
+      O VetCenter é um centro veterinário especializado no cuidado de animais de estimação. Oferecemos uma ampla gama de serviços, como consultas, cirurgias, exames laboratoriais e muito mais. Com uma equipe altamente capacitada e apaixonada por animais, nosso compromisso é garantir a saúde e o bem-estar do seu pet com atendimento de qualidade e carinho.
+    </p>
+    <a href="#services" class="bg-blue-500 text-white py-3 px-6 rounded mt-6 inline-block text-xl">Veja nossos serviços</a>
+  </section>
+
+  <img src="img/image2.jpg" alt="VetCenter" class="mx-auto mb-6" style="max-width: 100%; height: auto;">
+
+  <!-- Seção de Serviços -->
+  <section id="services" class="bg-white py-28 text-center">
+    <h2 class="text-4xl font-bold text-gray-800">Serviços</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mt-12">
+      <div class="bg-gray-100 p-6 rounded-lg">
+        <h3 class="text-2xl font-semibold">Clínica Geral</h3>
+        <p class="mt-4 text-gray-600">Consultas e cuidados preventivos para garantir a saúde e bem-estar do seu pet.</p>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-lg">
+        <h3 class="text-2xl font-semibold">Cirurgias</h3>
+        <p class="mt-4 text-gray-600">Cirurgias veterinárias com profissionais especializados para garantir a recuperação e saúde do seu pet.</p>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-lg">
+        <h3 class="text-2xl font-semibold">Exames Laboratoriais</h3>
+        <p class="mt-4 text-gray-600">Exames laboratoriais precisos, diagnóstico rápido e eficaz da saúde do seu pet.</p>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-lg">
+        <h3 class="text-2xl font-semibold">Vacinação</h3>
+        <p class="mt-4 text-gray-600">Mantemos seu pet protegido com vacinas essenciais para prevenção e bem-estar.</p>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-lg">
+        <h3 class="text-2xl font-semibold">Pet Shop</h3>
+        <p class="mt-4 text-gray-600">Com uma variedade de produtos, garantimos que seu pet tenha tudo o que precisa para ser feliz.</p>
+      </div>
+      <div class="bg-gray-100 p-6 rounded-lg">
+        <h3 class="text-2xl font-semibold">Banho e Tosa</h3>
+        <p class="mt-4 text-gray-600">Banho e tosa feito com produtos de qualidade para manter seu pet limpo e saudável.</p>
+      </div>
+    </div>
+  </section>
+
+  <img src="img/image3.jpg" alt="VetCenter" class="mx-auto mb-6" style="max-width: 100%; height: auto;">
+
+  <!-- Seção de Horário de atendimento e abrir uma conversa no Whatsapp -->
+  <section id="contacts" class="bg-yellow-400 text-white py-20 text-center">
+    <h2 class="text-3xl font-bold">Horário de atendimento</h2>
+    <p class="mt-4">Segunda a sexta das 08h00 às 19h00</p>
+    <p class="mt-4">Sábado das 08h00 às 14h00</p>
+    <p class="mt-4">Domingo - Não atendemos!</p>
+    <a href="https://wa.me/558781288484" target="_blank" class="bg-green-600 text-white py-3 px-6 rounded mt-8 inline-block">Chamar no WhatsApp</a>
+  </section>
+
+  <!-- Seção de Localização (Mapa) -->
+  <section class="text-center">
+    <div id="map" class="h-96"></div> <!-- O mapa será exibido aqui -->
+  </section>
+
+  <br>
+  
+  <!-- Rodapé -->
+  <footer class="bg-yellow-400 text-white text-center">
+    <p>Desenvolvido por <a href="https://github.com/Gus-96" target="_blank">Gus-96</a> &copy; 2025</p>
+  </footer>
+
+  <!-- Botão Voltar ao Topo -->
+  <button id="backToTop" onclick="scrollToTop()">↑</button>
+
+  <script src="script.js"></script>
+  <!-- Carregamento assíncrono e deferido do Google Maps API -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHWFSVoMgSKoSrXTLz8ecKtnjr7FZOJzs&callback=initMap&libraries=&v=weekly" async defer></script>
+</body>
+</html>
