@@ -14,7 +14,7 @@
 </head>
 <body>
   <!-- Cabeçalho -->
-  <header class="text-black py-9">
+  <header class="text-black py-5">
     <div class="container mx-auto flex justify-center items-center">
       <nav class="space-x-6">
         <a href="#about" class="hover:text-blue-300">Sobre</a>
@@ -24,8 +24,6 @@
       </nav>
     </div>
   </header>
-
-  <br>
 
   <!-- Seção de Introdução -->
   <section class="text-white py-28 text-center">
@@ -37,7 +35,9 @@
     <a href="https://wa.me/558781288484" target="_blank" class="bg-yellow-500 text-white py-3 px-6 rounded mt-8 inline-block text-xl">Agende uma consulta!</a>
   </section>
 
-  <img src="img/image1.jpg" alt="VetCenter" class="mx-auto mb-6" style="max-width: 100%; height: auto;">
+  <div class="imagem-container">
+    <img src="img/image1.jpg" alt="VetCenter" class="mx-auto mb-6" style="max-width: 100%; ">
+  </div>
 
   <!-- Seção sobre o Pet Shop -->
   <section id="about" class="bg-gray-100 py-28 text-center">
@@ -51,12 +51,12 @@
     <a href="#services" class="bg-blue-500 text-white py-3 px-6 rounded mt-6 inline-block text-xl">Veja nossos serviços</a>
   </section>
   
-  <br>
-  <img src="img/image2.jpg" alt="VetCenter" class="mx-auto mb-6" style="max-width: 100%; height: auto;">
-  <br>
+  <div class="imagem-container">
+    <img src="img/image2.jpg" alt="VetCenter" class="mx-auto mb-6" style="max-width: 100%;">
+  </div>
 
   <!-- Seção de Serviços -->
-  <section id="services" class="bg-white text-center">
+  <section id="services" class="bg-white text-center py-20">
     <h2 class="text-4xl font-bold text-gray-800">Serviços</h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mt-12">
       <div class="bg-gray-100 p-6 rounded-lg">
@@ -85,8 +85,10 @@
       </div>
     </div>
   </section>
-  <br>
-  <img src="img/image3.jpg" alt="VetCenter" class="mx-auto mb-6" style="max-width: 100%; height: auto;">
+
+  <div class="imagem-container">
+    <img src="img/image3.jpg" alt="VetCenter" class="mx-auto mb-6" style="max-width: 100%; height: auto;">
+  </div>
 
   <!-- Seção de Horário de atendimento e abrir uma conversa no Whatsapp -->
   <section id="contacts" class="bg-yellow-400 text-white py-20 text-center">
@@ -101,9 +103,7 @@
   <section class="text-center">
     <div id="map" class="h-96"></div> <!-- O mapa será exibido aqui -->
   </section>
-
-  <br>
-  
+    
   <!-- Rodapé -->
   <footer class="bg-yellow-400 text-black text-center">
     <p>Desenvolvido por <a href="https://github.com/Gus-96" target="_blank">Gus-96</a> &copy; 2025</p>

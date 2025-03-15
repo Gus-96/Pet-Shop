@@ -4,7 +4,7 @@
 }
 
 .hover-zoom:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
   transition: all 0.3s ease;
 }
 
@@ -28,3 +28,17 @@
 #backToTop:hover {
   background-color: #007aff;
 }  
+
+.imagem-container {
+  overflow: hidden; /* Garante que a imagem não saia da área visível */
+  display: inline-block;
+}
+
+.imagem-container img {
+  width: 100%; /* Define o tamanho da imagem */
+  transition: transform 0.3s ease; /* Transição suave para o efeito de zoom */
+}
+
+.imagem-container:hover img {
+  transform: scale(1.1); /* Aplica o zoom quando o mouse passa sobre a imagem */
+}
