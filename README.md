@@ -1,7 +1,7 @@
 Landing Page para Pet Shop e Clínica Veterinária
 
 📌 Sobre o Projeto
-Landing page responsiva, um centro veterinário e pet shop que oferece serviços como consultas, cirurgias, exames laboratoriais, vacinação, banho e tosa.
+- Landing page responsiva, um centro veterinário e pet shop que oferece serviços como consultas, cirurgias, exames laboratoriais, vacinação, banho e tosa.
 
 🔗 Link do projeto: https://gus-96.github.io/Pet-Shop/
 
@@ -21,15 +21,10 @@ Landing page responsiva, um centro veterinário e pet shop que oferece serviços
 - Design responsivo (adaptável para mobile e desktop)
 - Botão "Voltar ao Topo" para melhor navegação
 
-🚀 Como Usar
-Clone o repositório:
-git clone [URL_DO_REPOSITÓRIO]  
-Abra o arquivo index.html no navegador.
-
 📝 Personalização
 - Substitua as imagens em /img/ pelas da sua clínica.
 - Atualize o link do WhatsApp (https://wa.me/558781288484) com o número correto.
 - Modifique o texto e cores no HTML ou no Tailwind CSS conforme necessário.
 
-📌 Créditos
-Desenvolvido por Gus-96.
+Créditos
+- Desenvolvido por Gus-96.
