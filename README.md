@@ -1,5 +1,3 @@
-Link do projeto: https://gus-96.github.io/Pet-Shop/
-
 # Landing Page para Pet Shop e Clínica Veterinária
 
 ### Funcionalidades
